@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>GitHub Cheatsheet</h1>
+    </header>
+    <main>
+    <div main_divs>
+        <div class="article_first">
+            <h2>Git configuration</h2>
+            <p>git config -- global user.name "Your Name" <br><span>
+                Set the name that will be attached to your commits and tags</span></p>
+            <p>git config --global user.email "you@example.com <br><span>
+            Set the e-mail adress that will be attached to your commits and tags.</span></p>
+            <p>git config --global color.ui auto <br><span>
+            Enable some colorization of Git output.</span></p>
+        </div>
+
+        <div class="article_second">
+            <h2>Starting A Project</h2>
+            <p>git init (project name) <br><span>
+                Create a new local repository. If [project name] is provided, Git will
+                create a new directory name [project name] and will initialize a
+                repository inside it. If [project name] is not provided, then a new
+                repository is initialized in the current directory </span></p>
+            
+        </div>
+
+        <div class="article_third">
+            <h2>Daily work commands</h2>
+            <p>git add * <br><span>
+                Add a file to the staging area. Use in place of the full file path to add all
+                changed files from the current directory down into the directory tree.</span></p>
+            <p>
+                git commit -m "New Name" <br><span>
+                Create a new commit from changes added to the staging area.
+                The commit must have a message!</span>
+            </p>    
+            <p>git push <br><span>
+               Push local changes to the remote.</span></p>
+
+            <p>git pull <br><span>
+                Fetch changes from the remote and merge current branch with its
+                upstream.</span></p>   
+        </div>
+    </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
