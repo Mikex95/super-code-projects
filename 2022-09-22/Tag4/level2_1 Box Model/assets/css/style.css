@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    border: 2px dotted black;
+    border-radius: 35px;
+    margin: 15px;
+}
+
+
+.p1 {
+    padding: 10px;
+    margin: 5px 200px 10px 200px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.p2 {
+    padding: 10px;
+    margin: 2px 200px 10px 200px;
+    border: 1px solid red;
+
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid pink;
+    border-radius: 41px;
+    box-shadow: 2px 1px 15px 3px red;
+    margin: 5px;
+    
+}
+
+.p3 {
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+}
+
+.ol1 {
+    padding: 5px 35px 5px 35px;
+    margin: 5px 200px 5px 200px;
+    border: 1px solid red;
+}
+
+h3 {
+    padding: 5px;
+    text-align: center;
+    border: 3px solid rgb(173, 33, 168);
+    border-radius: 15px;
+}
+
+div {
+    border: 3px solid rgb(209, 16, 132);
+    padding: 5px;
+    border-radius: 15px;
+    margin: 7px;
+    margin-bottom: 10px;
+}
+
+.p4 {
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid red;
+    
+}
+
+.ul1 {
+    padding: 5px 35px 5px 35px;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+}
+
+.p5 {
+    padding: 15px ;
+    border: 1px solid red;
+    margin: 10px 200px 10px 200px;
+}
+
+.p6 {
+    padding: 15px ;
+    border: 1px solid red;
+    margin: 10px 200px 10px 200px;
+}

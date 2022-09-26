@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(128, 128, 128, 0.09);
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(128, 128, 128, 0.09);
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/27/21/01/bitcoin-2546742_1280.png);
+    
+    
+}
+
+/* img {
+    width: 90px;
+    margin: 15px 5px 5px 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 3px 2px 10px;
+} */
+
+.nav_header {
+    display: flex;
+    float: right;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 22px;
+    color: black;
+    float: left;
+}
+
+a:hover {
+    color: orange;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.btn_course {
+    background-color: aquamarine;
+    border-radius: 25px;
+    border: 1px solid black;
+    display: in;
+}
+
+.main_section {
+    background-image: url(https://cdn.pixabay.com/photo/2022/02/22/22/19/btcore-snail-7029697_1280.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-color: bisque;
+    background-position: center;
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.p_snail {
+    max-width: 450px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 22px;
+    font-style: italic;
+    border: 6px double black;
+    padding: 15px 40px;
+    border-radius: 35px;
+}
+
+footer {
+    height: 85px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.footer_ul {
+    float: right;
+    margin-right: 25px;
+}

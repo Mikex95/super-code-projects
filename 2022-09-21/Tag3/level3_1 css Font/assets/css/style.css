@@ -1,0 +1,49 @@
+h1 {
+    background-color: rgb(79, 79, 79);
+    text-align: center;
+    color: white;
+    line-height: 55px;
+    font-size: 48px;
+    font-family: Tahoma;
+}
+
+h2 {
+    word-spacing: 25px;
+    text-align: end;
+    text-shadow: -1px -1px rgb(0, 0, 0);
+    color: lightgray;
+}
+
+.p1 {
+    text-decoration: underline ;
+    text-transform: uppercase;
+    line-height: 16px;
+    
+}
+
+.p2 {
+    text-decoration: underline;
+}
+
+section {
+    background-color: lightgray;
+}
+
+.li1{
+    text-indent: 75px;
+    background-color:gray;
+    
+    
+}
+
+.li2{
+    text-indent: 75px;
+    background-color:gray ;
+    
+}
+
+.li3{
+    text-indent: 75px;
+    background-color: gray;
+    
+}

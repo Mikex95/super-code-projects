@@ -1,0 +1,15 @@
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: green;
+    
+}
+
+h3 {
+    font-size: 35px;
+    background: lightgray;
+    font-weight: 100;
+    color: darkgray
+}

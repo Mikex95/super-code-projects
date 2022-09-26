@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue
+}
+
+header {
+    background-color: lightcyan
+
+}
+
+.cat {
+    height: 400px;   
+    width: 400px;
+}
+
+.cat2 {
+    height: 600px;
+    width: 600px;
+}
+
+.cat3 {
+    height: 800px;
+    width: 800px;
+}
+
+.a1 {
+    color: red
+}
+
+p {
+    margin-bottom: 0;
+}
+
+span {
+    color: red;
+}

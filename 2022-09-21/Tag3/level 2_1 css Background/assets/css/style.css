@@ -1,0 +1,11 @@
+section {
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(238, 0, 255, 0.109));
+    box-shadow: 1px 2px 5px silver;
+}
+
+article {
+    background-image: url(https://i.picsum.photos/id/903/200/300.jpg?hmac=bT2dTWTFYT3TyM7cBatAwmhTtJuzlHBXtqn_kH-z3lU);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: -18px;
+}

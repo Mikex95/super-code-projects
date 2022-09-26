@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.p1 {
+    background-color: aqua;
+    padding: 35px;
+    border: 5px solid black;
+    margin: 15px 15px 15px 15px;
+
+}
+
+article {
+    border: 2px solid black;
+    margin: 5px;
+}

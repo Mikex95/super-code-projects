@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+article {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 5px;
+    min-width: 400px;
+}
+

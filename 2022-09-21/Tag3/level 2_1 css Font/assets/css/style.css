@@ -1,0 +1,35 @@
+h1 {
+    background-color: rgb(73, 73, 73);
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 4px 4px black;
+    line-height: 65px;
+}
+
+.p1 {
+    text-indent: 100px;
+    word-spacing: 25px;
+    font-family: 'Lucida Sans Unicode'
+}
+
+.p2 {
+    text-indent: 55px;
+}
+
+.p3 {
+    background-color: lightgray;
+    line-height: 25px;
+    text-align: center;
+}
+
+.p4 {
+    background-color: rgb(81, 81, 81);
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+h2 {
+    text-shadow: 1px 1px black;
+    letter-spacing: 10px;
+}

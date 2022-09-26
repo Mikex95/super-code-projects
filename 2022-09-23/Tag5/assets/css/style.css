@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    background-image: url(https://lh5.googleusercontent.com/50_Zh4wdbKq0IY7nEvt9eHI4V9Yl9elNjJ-7oGreg65aV63uUUTZ1jAdTgrVVnlK53V7KD1sWOnx6i4=w2850-h1468);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+
+.h1 {
+    margin-left: 150px ;
+    font-size: 48px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.h2 {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.div1 {
+    max-width: 250px;
+    margin: 100px auto auto auto;
+    padding:  5px 5px 5px;
+    
+}
+
+.p1 {
+    color: white;
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    font-size: 20px;
+    
+}
+
+@font-face {
+    font-family: Jungle;
+    src: url(https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap);
+}
+
+.button1 {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 20px 50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.19);
+    border-radius: 10px;
+
+}
+
+.button1:hover {
+    color: rgba(0, 207, 52, 0.94);
+    background-color: rgba(240, 248, 255, 0.313);
+}
+
+nav {
+    padding: 20px;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+a {
+color: white;
+text-decoration: none;
+
+}
+
+a:hover {
+    color: green;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    margin: 15px;
+}
+
+.article2 {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact1 {
+    margin: 20px;
+}
+
+.phonenumber {
+    margin: 20px;
+}
+
+.contact {
+    border: 5px double black;
+    margin: 20px 20px;
+    padding: 5px;
+    display: inline-block;
+}
+
+footer {
+    width: 100%;
+    background-color: #0F3460;
+    height: 150px;
+    
+}
+
+.div3 {
+ color:white;
+ width: 400px;
+ margin: 10px;
+ padding: 25px 5px 10px 5px;
+}
+
+.p3 {
+    display: inline-block;
+    font-size: 12px;
+    padding-bottom: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+
+.button2 {
+    border: 1px solid white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.ulfooter {
+    display: flex;
+    color: white;
+    float: right;
+    
+}
+
+.afooter {
+    float: right;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+
+

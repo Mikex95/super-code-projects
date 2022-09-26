@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+
+.logo_header_left {
+    height: 60px;
+    width: 150px;
+    float: left;
+}
+
+.nav_box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.navbar_header {
+    align-items: center;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: large;
+    
+}
+
+a:hover {
+    border-bottom: 1px white solid;
+    color: orange;
+}
+
+
+p {
+    margin: 15px;
+    padding: 0px 100px;
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.531);
+}
+
+
+section {
+    background-image: url(https://m.media-amazon.com/images/I/61pky4+S+PL._SX3000_.jpg);
+    
+    
+
+}
+
+
+h2 {
+    height: 420px;
+    width: 325px;
+    margin: 5px;
+    float: left;
+}
+
