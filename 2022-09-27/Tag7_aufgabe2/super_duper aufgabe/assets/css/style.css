@@ -35,7 +35,7 @@ header a {
 
 header {
     height: 100vh;
-    background-color: rgb(35, 35, 35);
+    background-image: radial-gradient(circle, #051937, #004a75, #007f8c, #00b36a, #9adb01);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -46,7 +46,7 @@ p {
 }
 
 header article {
-    background-image: linear-gradient(to right top, #051937, #004a75, #007f8c, #00b36a, #9adb01);
+    background-image: linear-gradient(to right bottom, #0094d5, #00b3d8, #00cbac, #5fda62, #e0da00);
     width: 22%;
     height: auto;
     margin: auto;
@@ -56,7 +56,7 @@ header article {
 }
 
 header article:hover {
-    background-image: linear-gradient(to right top, #051937, #427897, #e0730761, #1e9a68, #9adb01);
+    background-image: linear-gradient(to left bottom, #0094d5, #00b3d8, #00cbac, #5fda62, #e0da00);
 }
 
 header h2 {
