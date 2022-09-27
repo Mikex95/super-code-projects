@@ -45,11 +45,20 @@ main h2 {
     
 }
 
+main div {
+    display: flex;
+    height: 500px;
+    width: 300px;
+}
+
 
 main div p {
     padding: 5px 25px;
     font-size: 18px;
-    
-    
+}
+
+.article_first {
+    justify-content: left;
+    background-color: green;
 }
 

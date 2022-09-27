@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+p {
+    max-width: 50vw;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+li {
+    line-height: 1.5em;
+    list-style: none;    
+}
+
+
+ul {
+    padding-inline-start: 1.2em;
+    
+}
+
+section ul .dog_list li {
+    list-style-type: "🐶";
+}
+
+section ul .cat_list li {
+    list-style-type: "🐱";
+}
+
+section ul .bird_list li {
+    list-style-type: "🐣";
+}
+
+section ul .reptile_list li {
+    list-style-type: "🐍";
+}
+
+section ul .lizzard_list li {
+    list-style-type: "🦎";
+}
+
+.ul_border {
+    
+    border: 2px black solid;
+}
