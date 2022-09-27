@@ -1,0 +1,153 @@
+@font-face {
+    font-family: MavenPro;
+    src: url(../../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);    
+}
+
+@font-face {
+    font-family: GildaDisplay;
+    src: url(../../fonts/Gilda_Display/GildaDisplay-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+/* ------------- HEADER-BEREICH -------------*/
+
+
+header h1 {
+    color: white;
+    font-family: MavenPro;
+    padding: 5px 15px;
+    margin-bottom: 200px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    height: 100vh;
+    background-color: rgb(35, 35, 35);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+p {
+    display: inline;
+    font-family: GildaDisplay;
+}
+
+header article {
+    background-image: linear-gradient(to right top, #051937, #004a75, #007f8c, #00b36a, #9adb01);
+    width: 22%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 120px;
+    border-radius: 25px;
+    
+}
+
+header article:hover {
+    background-image: linear-gradient(to right top, #051937, #427897, #e0730761, #1e9a68, #9adb01);
+}
+
+header h2 {
+    color: white;
+    font-family: GildaDisplay;
+    font-size: 4.8rem;
+    text-align: center;
+}
+
+header p {
+    padding: 5px 15px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    float: right;
+    list-style: none;
+
+}
+
+header nav ul li {
+    margin-right: 15px;
+    padding: 15px;
+}
+
+header nav ul li a {
+    font-size: 2rem;
+}
+
+header nav ul li a:hover {
+    color:#1e9a68;
+    border-radius: 10px;
+}
+
+
+/* -------------------------MAIN------------------------*/
+
+
+main {
+    margin: 0px 200px;
+}
+
+section {
+    background-image: url(../../img/Background_image.svg);
+    height: 100vh;
+    width: 100wh;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 20%;
+}
+
+main section article {
+    margin-bottom: 200px;
+}
+
+main section h2 {
+    font-size: 3rem;
+}
+
+main section p {
+    font-family: GildaDisplay;
+    font-size: 1.8rem;
+}
+
+.art_one {
+    /* min-width: 250px ;
+    padding-left: 380px; */
+    padding-top: 150px;
+    display: block;
+    float: left;
+}
+
+.art_one h2 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-family: GildaDisplay;
+}
+
+.art_one p {
+    display: inline-block;
+    max-width: 750px;
+    font-size: 1.8rem;
+}
+
+img {
+    border: 2px black solid;
+    border-radius: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
