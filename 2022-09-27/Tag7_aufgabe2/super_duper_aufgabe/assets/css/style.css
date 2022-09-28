@@ -47,10 +47,10 @@ p {
 
 header article {
     background-image: linear-gradient(to right bottom, #0094d5, #00b3d8, #00cbac, #5fda62, #e0da00);
-    width: 22%;
+    width: 450px;
     height: auto;
     margin: auto;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
     border-radius: 25px;
     
 }
@@ -67,7 +67,7 @@ header h2 {
 }
 
 header p {
-    padding: 5px 15px;
+    padding: 15px 15px 20px 15px;
     display: block;
     color: white;
     text-align: center;
