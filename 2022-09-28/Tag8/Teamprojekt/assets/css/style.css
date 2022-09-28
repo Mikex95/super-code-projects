@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins_medium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Poppins;
+}
+
+html {
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: Cinzel;
+  color: #999;
+}
+
+h2, 
+h3,
+h4 {
+    font-family: Cinzel;
+}
+
+header h2::first-letter {
+    font-size: 3.5rem;
+}
+
+h3::first-letter {
+    font-size: 1.6rem;
+}
+/* -----------------Header -----------------*/
+
+header {
+    height: 920px;
+}
+
+header h1 {
+    height: 80px;
+    box-shadow: -2px 1px 15px 1px #000000;
+    padding-left: 6rem;
+    padding-top: 1.2rem;
+}
+
+.image_header {
+    background-image: url("../img/Berge_background_home.avif");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_header h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+/* ---------------------Main------------------------ */
+
+main {
+    margin: 0 100px;
+}
+
+.section_one {
+    display: inline-block;
+    
+}
+
+.section_one h3 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section_one p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+/* ------------------main_pictures--------------*/
+
+
+.images_main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images_container {
+    float: left;
+    margin : 2rem;
+}
+
+.images_main img:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: -2px 1px 15px 1px #000000;
+}
+
+/*----------------- Tour Dates ---------------*/
+
+.tour_dates h4 {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 5rem;
+}
+
+li {
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    font-family: Poppins_medium;
+    color: rgb(98, 98, 98);
+}
+
+.li1::after {
+    content: "- SOLD OUT";
+    color: red;
+}
+
+.li2::after {
+    content: "- AVAILABLE";
+    color: green;
+}
+
+/* ---------------Footer----------------  */
+
+footer {
+    height: 15rem;
+}
+
+footer h3 {
+    border-top: rgba(51, 51, 51, 0.56) 1px solid;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer div {
+    text-align: center;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 10px;
+    font-size: 90px;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background-color: rgba(51, 51, 51, 0.838);
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: rgba(51, 51, 51, 0.838);
+    color: white;
+  }
+
+  .fa-youtube {
+    background-color: rgba(51, 51, 51, 0.838);
+    color: white;
+  }
+
