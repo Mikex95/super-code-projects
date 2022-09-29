@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Dancing;
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -10,5 +20,118 @@ html {
 }
 
 .lightgray {
-    color: lightgray;
+    color: rgb(141, 141, 141);
 }
+
+h2 {
+font-family: Poppins;
+padding-left: 0.4rem;
+}
+
+/*----------------- Header ------------ */
+
+header {
+    height: 4.5rem;
+    width: 100%;
+}
+
+.header_left {
+    display: flex;
+    padding-top: 1rem ;
+    justify-content: space-around;
+}
+
+.header_left ul {
+    display: flex; 
+    
+}
+
+.header_left li {
+ padding: 0.6rem 0 0 0; 
+ margin-left: 2rem;
+ list-style-type: none;
+} 
+
+header a {
+    color: black;
+    font-family: poppins;
+    text-decoration: none;
+}
+
+header span {
+    color:red;
+}
+
+.button_header_right {
+    border: lightblue 1px;
+    border-radius: 30px;
+    padding: 0.7rem;
+    background-color: rgba(173, 216, 230, 0.362);
+    color: rgba(0, 136, 255, 0.539);
+}
+
+.button_header_right:hover {
+    color: black;
+}
+/* --------------------Main--------------  */
+
+main section {
+    background-color: rgba(211, 211, 211, 0.072);
+}
+
+section {
+    height: 40rem;
+    width: 100%;
+}
+
+/*--------- Article Landing page --------- */
+
+.article_one {
+   text-align: center;
+   padding-top: 15vh;
+}
+
+.emoji_star::before {
+    content: "⭐️";
+}
+
+.emoji_star.lightgray {
+    margin-bottom: 1rem;
+}
+
+main section h1 {
+    font-family: Dancing;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.p_second {
+    font-size: 1.6rem;
+    text-align: center; 
+    margin-bottom: 2rem;
+}
+    
+.button_left {
+    color: black;
+    border: solid black 1px;
+    border-radius: 3rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-decoration: none;
+}    
+
+.button_right {
+    color: rgb(255, 255, 255);
+    border: solid 1px;
+    border-radius: 3rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-decoration: none;
+    background-color: rgb(0, 200, 255);
+    margin: 0.5rem;
+}    
+
+.article_one a:hover {
+    color: orange;
+    background-color: rgb(0, 0, 0);
+}
+
+

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+}
+
+header a:hover {
+    border-bottom: 1px solid orange;
+    transform: translateY(-0.1rem);
+    
+}
+
+/*-------- Header -------*/
+
+header section {
+    box-shadow: 0px 2px 20px 3px rgba(0,0,0,0.57);
+}
+
+header h2 {
+    font-family: poppins;
+    border: 3px solid rgba(255,198,24,0.28);
+    border-radius: 40px 0px 40px 40px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+        
+
+
+.header_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+}
+
+.header_nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2.5rem;
+}
+
+.header_nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.header_nav ul li a {
+   padding: 5px;
+}
