@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form>
+        <p class="tag star">Name <span>*</span></p>
+        <label for="name-input1"></label>
+        <input type="name-input" id="name-input1" placeholder="Vorname" required>
+        
+        <label for="name-input2"></label>
+        <input type="name-input" id="name-input2" placeholder="Nachname" required>
+        
+        <p class="tag star" >Email <span>*</span></p>
+        <label for="email-input"></label>
+        <input type="email" name="email-input" id="email-input" required>
+
+        <p class="tag star">Thema</p>
+        <label for="select-input"></label>
+        <select name="selecet-input" id="selecet-input">
+            <option value="Advertise">Advertise</option>
+            <option value="Partnership">Partnership</option>
+            <option value="General">General</option>
+        </select>
+
+        <p class="tag star">Nachricht <span>*</span></p>
+        <textarea name="textarea-input" id="textarea-input" cols="30" rows="10"></textarea required>
+
+        <input class="button" type="submit" value="submit">
+    </form>
+</body>
+</html>

@@ -143,17 +143,13 @@ header h2:hover {
     justify-content: space-around;
     align-items: center;
     margin: 0 22rem 0 22rem;
+    text-align: center;
 }
 
 .section_about_me h1 {
     font-size: 4rem;
     line-height: 3rem;
     padding: 0 6rem 0 2rem;
-}
-
-.section_about_me div {
-    max-width: 70rem;
-    padding: 0 20px;
 }
 
 .section_about_me span {
