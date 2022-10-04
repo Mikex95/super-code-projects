@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+fieldset {
+    width: 40%;
+    margin: 10px 5px 10px 5px;
+    padding: 20px;
+}
+
+.box {
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+
+.div_eight {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    border: 1px solid rgba(0, 0, 0, 0.319);
+    border-radius: 30px;
+    padding: 3px 5px 3px 5px;
+}
