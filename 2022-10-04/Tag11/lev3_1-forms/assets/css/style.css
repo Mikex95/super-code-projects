@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color:blue;
+}
+
+.header_signup {
+    display: inline-block;
+    background-color: #12336f;
+    padding: 10px 200px 10px 25px;
+    border-radius: 50px 50px 0px 0px / 25px 25px 25px 25px;
+    border: 1px solid black;
+    color: white;
+}
+
+form {
+    display: inline-block;
+    background-color: aliceblue;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.box {
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.133);
+    padding-bottom: 4px;
+    width: 100%;
+}
+
+input{
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+label {
+    margin-left: 50px;
+}
+
+.button_bottom  {
+    margin-top: 10px;
+    background-color: #12336f;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.symbol_one::before {
+    content: "1️⃣";
+}
+
+.symbol_two::before {
+    content: "2️⃣";
+}
+
+.symbol_three::before {
+    content: "3️⃣";
+}
+
