@@ -1,0 +1,11 @@
+document.write("<h1>Hello World!</h1>");
+document.write("<p>Have a nice day!</p>");
+let myText = ("Hello again");
+document.write(myText);
+document.write("<br>");
+document.write("<br>");
+const myName = ("Name: Sheldon");
+let mySurname = ("Nachname: Cooper");
+document.write(myName);
+document.write("<br>");
+document.write(mySurname);
