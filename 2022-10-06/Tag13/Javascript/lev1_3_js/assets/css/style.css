@@ -1,0 +1,8 @@
+#gallery {
+    display: flex;
+}
+
+img {
+    height: 200px;
+    margin-right: 50px;
+}
