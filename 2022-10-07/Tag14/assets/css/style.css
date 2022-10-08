@@ -1,0 +1,317 @@
+@font-face {
+    font-family: "work-sans";
+    src: url("../font/WorkSans-Light.ttf");
+}
+
+/* ---- !Colors! ---
+black: #2e2e2e
+brown: #867772
+light-brown: #ebccc2
+Pink: rgb(234,204,194)
+White: #fff
+Gray: rgb(115,115,115) */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "work-sans";
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(115,115,115);
+    background: radial-gradient(circle, rgba(115,115,115,1) 0%, rgba(46,46,46,1) 94%);
+}
+
+h2, h3 {
+    color: #fff;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.444);
+}
+
+/* ----------- HEADER ----------- */
+
+.container-social-media {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 30px 50px 10px 0px;
+    position: fixed;
+    width: 90%;
+}
+
+.container-social-media img {
+    margin-left: 6rem;
+}
+
+.container-social-right {
+    font-size: 1.6rem;
+}
+
+.container-social-right a:hover {
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.container-social-media a {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.385);
+    text-decoration: none;
+}
+
+.social-margin {
+    margin: 0 50px;
+}
+
+.sec-header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 12rem;
+    margin-bottom: 20rem;
+    margin-left: 20rem;
+    margin-right: 40rem;
+}
+
+ul {
+    position: fixed;
+    top: 150px;
+}
+
+.image-about {
+    background-image: url("../img/section-about-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 75px 150px;
+}
+
+.navbar-header li {
+    margin-left: 80px;
+    margin-top: 8rem;
+    font-size: 2rem;
+    list-style-type:circle;  
+}
+
+.navbar-header li:hover {
+    color: white;
+    
+}
+.navbar-header li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.navbar-header li a:hover {
+    color: #fff;
+}
+
+/* ----------- Main ----------- */
+
+.design-alchemy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.design-alchemy img {
+    width: 40rem;
+    height: 100%;
+    margin-right: 8rem;
+}
+
+.design-alchemy article {
+    max-width: 30%;
+    font-size: 2rem;
+}
+
+.design-alchemy article h2 {
+   margin-bottom: 2rem;
+   color: #fff;
+}
+
+.text-second-design-alchemy {
+    margin-top: 3%;
+}
+
+/* ----------- Main lounger ----------- */
+
+.the-lounger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-lounger img {
+    max-width: 60vw;
+    min-height: 100vh;
+    padding-right: 5rem;
+}
+
+.the-lounger p {
+    /* color: rgba(255, 255, 255, 0.534); */
+    font-size: 1.8rem;
+    max-width: 80%;
+    line-height: 2.5rem;
+}
+
+.the-lounger article h2 {
+    font-size: 3rem;
+    /* color: #fff; */
+    margin-bottom: 15%;
+}
+
+.the-lounger article p {
+    margin-bottom: 2rem;
+}
+
+/* ----------- Main Experience ----------- */
+
+.sounds-like-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sounds-like-home img {
+    max-width: 60vw;
+    min-height: 100vh;
+    padding-right: 5rem;
+}
+
+.sounds-like-home p {
+    font-size: 1.6rem;
+    max-width: 80%;
+    line-height: 2.5rem;
+}
+
+.sounds-like-home article h2 {
+    font-size: 3rem;
+    margin-bottom: 15%;
+    margin-top: 5rem
+}
+
+.sounds-like-home article p {
+    margin-bottom: 2rem;
+}
+
+/* ----------- Main Inspiration ----------- */
+
+video {
+    display: block;
+    width: 50%;
+    padding-top: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+}
+
+
+.exist-to-create-container {
+    margin-left: 25%;
+    font-size: 2rem;
+    margin-bottom: 8rem;
+}
+
+.inspiration-list {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.inspiration-list a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 2px 10px;
+}
+
+/* ---Main Inspiration pictures --- */
+
+.sound-alchemy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.sound-alchemy img {
+    max-width: 50vh;
+}
+
+.sound-alchemy-container {
+    max-width: 25%;
+    padding-left: 2rem;
+}
+
+.sound-alchemy-container h2 {
+    margin: 1rem 0 3rem 0
+}
+
+
+.sound-architecture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sound-architecture img {
+    max-width: 51vh;
+}
+
+.sound-architecture-container {
+    max-width: 25%;
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+
+.sound-architecture-container h2 {
+    margin: 1rem 0 3rem 0
+}
+
+/* --- Main Shop --- */
+
+
+.shop-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 6%;
+}
+
+.image-left-container img {
+    max-width: 55vw;
+    min-height: 100vh;
+}
+
+.image-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+
+.image-right-container a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(234,204,194);
+    margin-top: 5px;
+}
+
+.argilla-tag {
+    padding: 1rem 0 2rem 0;
+}
