@@ -1,0 +1,184 @@
+@font-face {
+    font-family: coromorant-bold;
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+}
+
+@font-face {
+    font-family: coromorant-light;
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);
+}
+
+@font-face {
+    font-family: coromorant-medium;
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(233, 233, 224);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1,h2,h3 {
+    font-family: coromorant-bold;
+}
+
+h4 {
+    font-family: coromorant-medium;
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: coromorant-medium;
+    font-size: 1.6rem;
+}
+
+
+/* ---- Header ----  */
+
+header h1 {
+    text-align: center;
+    margin: 24px;
+    font-size: 4.8rem;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: double black 3px;
+    border-bottom: double black 3px;
+    margin-bottom: 24px;
+}
+
+.header-items h4 {
+    padding: 5px 0px;
+}
+
+header div {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   margin-right: 1%;
+   font-size: 2.0rem;
+}
+
+header h2 {
+    font-size: 4.8rem;
+    padding-left: 170px ;
+}
+
+
+/* ----- main -----  */
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(1tr 1tr 2tr 1tr);
+    grid-template-rows: 20% 20% 20%;
+    grid-template-areas: 
+    "art-one art-two image image side-one"
+    "art-three art-fourth image image side-two"
+    "art-five art-six image image side-three";
+    gap: 20px;
+}
+
+.box {
+    font-size: 2.4rem;
+    margin-bottom: 24px;
+}
+
+.art-one {
+    grid-area: art-one;
+}
+
+.art-two {
+    grid-area: art-two;
+}
+
+.art-third {
+    grid-area: art-three;
+}
+
+.art-fourth {
+    grid-area: art-fourth;
+}
+
+.art-five {
+    grid-area: art-five;
+}
+
+.art-six {
+    grid-area: art-six;
+}
+
+.article-aside-one {
+    grid-area: side-one;
+    font-size: 3rem;
+    border: double black 3px ;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.article-aside-second {
+    grid-area: side-two;
+    border: double black 3px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.article-aside-second p {
+    max-width: 200px;
+    padding: 2px;
+    font-size: 1.4rem;
+}
+
+.article-aside-second h4 {
+    font-size: 2.4rem;
+}
+
+.article-aside-ikea {
+    grid-area: side-three;
+    border: double black 3px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.article-aside-ikea img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    padding: 20px;
+}
+
+.image-container {
+    grid-area: image;
+}
+
+.image-container img {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+.image-container p {
+    margin-left: 12.5%;
+}
