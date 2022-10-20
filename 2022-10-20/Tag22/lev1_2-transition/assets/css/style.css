@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    background-color: gray;
+}
+
+.red {
+    height: 100px;
+    width: 20vw;
+    background-color: red;
+    transition: 2s;
+}
+
+.green {
+    height: 100px;
+    width: 20vw;
+    background-color: rgba(0, 255, 55, 0.28);
+    transition: 1.5s;
+    transition-delay: 0.5s;
+}
+
+.box:hover .green {
+    transform: translateX(80vw);
+    
+}
+
+.box:hover .red {
+    transform: translateX(80vw);
+} 

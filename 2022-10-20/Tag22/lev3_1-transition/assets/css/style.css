@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    align-items: end;
+    text-align: center;
+    background-color: gray;
+}
+
+p {
+    margin-top: 40px;
+}
+
+.big {
+    width: 5vw;
+    height: 100px;
+    border-radius: 50px;
+    background-color: red;
+    transition: 2.5s;
+}
+
+.small {
+    width: 2.5vw;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+    transition: width 2s;
+    margin-left: 90px;
+    transition: 5s;
+    transition-delay: 2s;
+}
+
+section:hover .big {
+    transform: translateX(5vw);
+}
+
+section:hover .small {
+    transform: translateX(87.5vw);
+}

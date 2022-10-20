@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+   height: 100vh;
+    gap: 5px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 2rem;
+}
+
+div:nth-of-type(1){
+    animation-name: first-div;
+    animation-iteration-count: infinite;
+    animation-duration: 2000ms;
+}
+
+@keyframes first-div {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: black;
+        color: white;
+    }
+}
+
+div:nth-of-type(2){
+    animation-name: second-div;
+    animation-iteration-count: infinite;
+    animation-duration: 1000ms;
+}
+
+@keyframes second-div {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: black;
+        color: white;
+    }
+}
+
+div:nth-of-type(3){
+    animation-name: third-div;
+    animation-iteration-count: infinite;
+    animation-duration: 500ms;
+}
+
+@keyframes third-div {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: black;
+        color: white;
+    }
+}
+
+div:nth-of-type(4){
+    animation-name: fourth-div;
+    animation-iteration-count: infinite;
+    animation-duration: 250ms;
+}
+
+@keyframes fourth-div {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: black;
+        color: white;
+    }
+}
+
+div:nth-of-type(5){
+    animation-name: fifth-div;
+    animation-iteration-count: infinite;
+    animation-duration: 125ms;
+}
+
+@keyframes fifth-div {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: black;
+        color: white;
+    }
+}
