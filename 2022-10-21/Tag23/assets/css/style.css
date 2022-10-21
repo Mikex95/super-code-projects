@@ -1,3 +1,8 @@
+@font-face {
+    font-family: karla;
+    src: url("../fonts/Karla/static/Karla-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +12,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
+    font-family: karla;
 }
 
 body {
