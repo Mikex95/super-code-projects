@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 100px;
+}
+
+
+
+img:hover {
+  opacity: 0.2;
+}
+
+/* ---- HEADER -----  */
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-size: 1.6rem;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-menu ul a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.header-menu h1:hover {
+    opacity: 0.2;
+}
+
+.header-menu ul a:hover {
+    opacity: 0.2;
+}
+
+/* --- Main ---  */
+
+.hero-box img {
+    width: 100%;
+    object-fit: contain;
+    transition: 1s;
+}
+
+.caption-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin-top: 16px;
+}
+
+.caption-bottom {
+    color: #848484;
+    font-size: 1.4rem;
+    margin-bottom: 46px;
+}
+
+.row-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.row-articles img {
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+
+/* --- Footer --- */
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+footer section h2 {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+}
+
+footer section p {
+    font-size: 1.6rem;
+    color: #848484;
+    margin-top: 5px;
+}
+
+span {
+    font-weight: 600;
+}
+
+footer section a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div {
+    color: #848484;
+    font-size: 1.4rem;
+    padding-bottom: 24px;
+}
+
+/* --------- Media queries -----  */
+
+@media screen and (max-width:800px) {
+
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+        margin-bottom: 24px;
+        margin-top: 24px;
+        border-bottom: solid black 1px;
+    }
+
+    .row-articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer section h2 {
+        margin-top: 40px;
+    }
+
+    footer section div p {
+        text-align: center;
+    }
+}
