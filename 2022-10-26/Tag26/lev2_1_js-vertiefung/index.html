@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form>
+        <label for="">Person 1</label>
+        <input type="number" id="age-input-john" placeholder="age John">
+        <input type="number" id="height-input-john" placeholder="height John">
+
+        <label for="">Person 2</label>
+        <input type="number" id="age-input-meike" placeholder="age Meike">
+        <input type="number" id="height-input-meike" placeholder="height Meike">
+
+        <input onclick="resultPoints(event)" type="submit" name="submit-input" id="submit-input" value="Punkte berechnen">
+    </form>
+    <h1></h1>
+    <h2 class="john-answer"></h2>
+    <h2 class="meike-answer"></h2>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
