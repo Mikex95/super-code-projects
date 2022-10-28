@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    margin-top: 16px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    border-radius: 20px;
+    border: 1px solid black;
+    min-height: 60vh;
+    min-width: 25vw;
+    background-color: rgba(0, 210, 242, 0.198);
+    padding: 0 10px;
+
+}
+
+.first-part-included{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.second-part{
+    margin-bottom: 10px;
+}
+
+.third-part{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.third-part input{
+    margin-top: 10px;
+    width: 130px;
+    height: 3vh;
+}
+
+.fourth-part{
+    margin-bottom: 20px;
+}
+
+.calculate-button {
+    padding: 5px 20px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+}

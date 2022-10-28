@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+    <div class="wrapper">
+        <form>
+            <div class="first-part">
+                <p>Was soll berechnet werden?</p>
+                <div class="first-part-included">
+                    <input onchange="changeClickTwo(event)" type="radio" id="netto-brutto" name="radio-input">
+                    <label for="radio-input">Mehrwertsteuer aufschlagen (Netto zu Brutto)</label>
+                </div>
+                <div class="first-part-included">
+                    <input onchange="changeClick(event)"  type="radio" id="brutto-netto" name="radio-input">
+                    <label for="brutto-netto">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
+                </div>
+            </div>
+            <hr>
+            <div class="second-part">
+                <p>Mehrwertsteuersatz</p>
+                <input type="radio" id="percent-19" name="radio-input-percent">
+                <label for="radio-input-second">19%</label>
+                <input type="radio" id="percent-7" name="radio-input-percent">
+                <label for="radio-input-second">7%</label>
+            </div>
+            <hr>
+            <div class="third-part">
+                <label for="input-number" id="input-number-label">Nettobetrag (Preis ohne Mehrwertsteuer) in Euro<span>*</span></label>
+                <input type="number" name="input-number" id="input-number">
+            </div>
+            <input onclick="myFunction(event)" class="calculate-button" type="submit" value="BERECHNEN" />
+        </form>
+        <h2>Ergebnis</h2>
+        <div class="fourth-part">
+            <p>Mehrwertsteuerbetrag</p>
+            <h3 class="resultTaxOnly"></h3>
+        </div>
+        <div>
+            <p class="changeTag">Bruttobetrag (Endpreis)</p>
+            <h3 class="resultBrutto"></h3>
+        </div>
+    </div>
+    </section>  
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
