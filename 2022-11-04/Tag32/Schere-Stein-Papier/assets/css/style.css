@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide-content {
+	display: none;
+}
+
+.rounds-counter {
+	display: flex;
+	gap: 20px;
+}

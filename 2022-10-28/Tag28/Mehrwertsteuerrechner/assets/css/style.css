@@ -18,8 +18,11 @@ section {
     border: 1px solid black;
     min-height: 60vh;
     min-width: 25vw;
-    background-color: rgba(0, 210, 242, 0.198);
+    background: rgb(8,0,93);
+    background: linear-gradient(41deg, rgba(8,0,93,1) 1%, rgba(0,218,231,1) 100%);
     padding: 0 10px;
+    color: rgb(206, 206, 206);
+    box-shadow: 2px 5px 15px 5px #000000;
 
 }
 
@@ -50,7 +53,7 @@ section {
 
 .calculate-button {
     padding: 5px 20px;
-    background-color: blue;
+    background-color: rgba(0,218,231,1);
     color: white;
     margin-bottom: 10px;
 }

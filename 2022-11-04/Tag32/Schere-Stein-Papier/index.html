@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schere-Stein-Papier</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <form action="">
+            <h2>how many rounds?</h2>
+            <div>
+                <input onchange='checkRounds(event)' class="radio5" type="radio" name="radio" value="5">
+                <label for="radio-input">5</label>
+                <input onchange='checkRounds(event)' class="radio10" type="radio" name="radio" value="10">
+                <label for="radio-input">10</label>
+            </div>
+            <div>
+                <input onchange='checkRounds(event)' class="radio15" type="radio" name="radio" value="15">
+                <label for="radio-input">15</label>
+                <input onchange='checkRounds(event)' class="radio20" type="radio" name="radio" value="20">
+                <label for="radio-input">20</label>
+            </div>
+        </form>
+        <h3 class="rounds-counter-headline hide-content">Rounds left:</h3>
+        <section class="rounds-counter hide-content">
+			<h2 class="active-round-h2">0</h2>
+			<span>/</span>
+			<h2 class="rounds-total-h2">0</h2>
+		</section>
+        <div id="score">
+            <h2> Spieler: <span id="user">0</span></h2>
+            <h2> Computer: <span id="computer">0</span></h2>
+        </div>
+        <div>
+            <h2>Computer Choice: <span id="computer-choice"></span></h2>
+            <h2>Your Choice: <span id="user-choice"></span></h2>
+            <h2>Result: <span id="result"></span></h2>
+        </div>
+        <div>
+            <button class="button1" id="schere">Schere</button>
+            <button class="button1" id="stein">Stein</button>
+            <button class="button1" id="papier">Papier</button>
+        </div>
+        <button id="restart-btn">Restart</button>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
