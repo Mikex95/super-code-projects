@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.wrapper {
+    color: white;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.wrapper div{
+    background-color: black;
+    padding: 100px 100px;
+    border-radius: 20px;
+    font-size: 48px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.wrapper div h6{
+    margin-right: 30px;
+}
+
