@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+             <div class="wrapper hidden">
+                <h1>Add a card</h1>
+                <form onsubmit="return false" action="">
+                    <div class="name-container">
+                        <input id="first-name" type="text" placeholder="First Name">
+                        <input id="last-name" type="text" placeholder="Last Name">
+                    </div>
+                    <div class="stage-container">
+                        <input id="stage" type="text" placeholder="Stage Name">
+                    </div>
+                    <div class="album-singles-container">
+                        <input id="albums" type="number" placeholder="How many albums">
+                        <input id="singles" type="number" placeholder="How many top 10 Singles?">
+                    </div>
+                    <div class="networth-age-container">
+                        <input type="number" id="networth" placeholder="Net worth in EUR">
+                        <input type="number" id="age" placeholder="How old is this person?">
+                    </div>
+                    <div class="textarea-container">
+                        <textarea name="textarea" id="textarea" placeholder="A famous quote by this person"></textarea>
+                    </div>
+                    <div class="img">
+                        <input id="img" type="text" placeholder="Image URL">
+                    </div>
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+            <div class="panini-container hidden">
+                <div id="first-name-output"></div>
+                <div id="last-name-output"></div>
+                <div id="stage-name-output"></div>
+                <div id ="albums-output"></div>
+                <div id="singles-output"></div>
+                <div id="net-worth-output"></div>
+                <div id="age-output"></div>
+                <div id="textarea-output"></div>
+                <div id="image-output"></div>
+            </div>
+    </section> 
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

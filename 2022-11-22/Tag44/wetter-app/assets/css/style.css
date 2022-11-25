@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------- Header ----------*/
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.wrapper {
+    min-width: 350px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-right img {
+    margin-left: 100px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+/*---------- Main ---------- */
+
+main section {
+    margin: 130px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-weather-data {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.container-daily-forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin: -100px 0;
+}
+
+.container-daily-forecast div{
+    margin: 0 30px;
+}
+
+/*---------- Footer ---------- */
+
+footer img {
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 30px;
+    height: 30px;
+}
+

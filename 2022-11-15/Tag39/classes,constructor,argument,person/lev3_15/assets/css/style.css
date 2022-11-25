@@ -1,0 +1,81 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#stage{
+    width: 404px;
+}
+
+input {
+    width: 200px;
+}
+
+textarea {
+    width: 404px;
+    height: 200px;
+}
+
+.img input {
+    width: 404px;
+}
+
+.panini-container{
+    margin-top: 50px;
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: rgba(0, 170, 255, 0.202);
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr  ;
+    text-align: center;
+    gap: 10px;
+}
+
+.card {
+    width: 500px;
+    height: 600px;
+}
+
+#first-name-output {
+}
+
+#last-name-output{
+}
+#stage-name-output{
+}
+#albums-output{
+}
+#singles-output{
+
+}
+#net-worth-output{
+
+}
+#age-output{
+
+}
+#textarea-output{
+
+} 
+#image-output{
+    width: 100%;
+}

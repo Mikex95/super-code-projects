@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <h1>Meine dynamische Webseite</h1>
+    <p id="demo">Wähle eine Farbe:</p>
+    <p>
+      <button onclick="changeBackground('pink')">Rosa</button>
+      <button onclick="changeBackground('purple')">Lila</button>
+      <button onclick="changeBackground('orange')">Orange</button>
+    </p>
+    <p>
+      <input type="range" id="rot" value="255" min="0" max="255" onchange="changeHandle()" style="background:red">
+      Rot<br>
+      <input type="range" id="grun" value="255" min="0" max="255" onchange="changeHandle()"
+        style="background:green">
+      Grün<br>
+      <input type="range" id="blau" value="255" min="0" max="255" onchange="changeHandle()"
+        style="background:blue">
+      Blau
+    </p>
+  
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
