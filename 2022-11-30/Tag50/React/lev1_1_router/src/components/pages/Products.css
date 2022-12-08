@@ -1,0 +1,51 @@
+.wrapper-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.wrapper-products div{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-products p {
+    font-size: 24px;
+}
+
+.border {
+    width: 50%;
+    border-top: solid rgba(0, 0, 0, 0.407) 1px;
+    margin: 0 10px;
+}
+
+.who-style {
+    font-size: 36px;
+}
+
+.products-us-style {
+    font-size: 64px;
+    color: lightgray;
+}
+
+.button-products {
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+}
+
+.coming-soon {
+    text-align: center;
+    font-size: 64px;
+}

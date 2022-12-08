@@ -1,0 +1,25 @@
+.wrapper-home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.wrapper-home p {
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.wrapper-home h2 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.button-home {
+    background-color: rgb(208, 138, 8);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}

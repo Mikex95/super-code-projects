@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    width: 100vw;
+}
+
+.grid1{
+    padding: 10px;
+    border: solid rgba(0, 0, 0, 0.062) 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: ceter;
+    height: 250px;
+    width: 400px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border-radius: 20px;
+}

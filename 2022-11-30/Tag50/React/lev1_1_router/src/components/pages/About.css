@@ -1,0 +1,46 @@
+section {
+    padding-bottom: 70px;
+}
+
+.wrapper-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-about div {
+    width: 50%;
+    border-top: solid rgba(0, 0, 0, 0.407) 1px;
+    margin: 0 10px;
+}
+
+.who-style {
+    font-size: 36px;
+}
+
+.about-us-style {
+font-size: 64px;
+color: lightgray;
+}
+
+.wrapper-about-article {
+    display: flex;
+    justify-content: space-around;
+}
+
+article h4{
+    font-size: 48px;
+}
+
+article p {
+    font-size: 36px;
+}
+
+.wrapper-image-about {
+    width: 500px;
+    height: 400px;
+}
+
+.wrapper-image-about img {
+    width: 100%;
+}
