@@ -37,3 +37,23 @@ main .grid-four-pics figure p {
 .grid-two-pics img {
     width: 100%;
 }
+
+@media (max-width: 900px) {
+    main .grid-four-pics{
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-items: center;
+        margin-bottom: 50px;
+    } 
+
+    .grid-two-pics {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-items: center;
+        margin-bottom: 100px;
+    }
+
+}

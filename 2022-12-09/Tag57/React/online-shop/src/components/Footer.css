@@ -7,6 +7,7 @@ footer {
     justify-items: center;
     margin-bottom: 50px;
     line-height: 30px;
+    gap: 30px;
 }
 
 .grid-footer h4{
@@ -26,3 +27,17 @@ footer {
     text-decoration: none;
     color: lightblue;
 }
+
+@media (max-width: 900px) {
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        margin-bottom: 50px;
+        line-height: 30px;
+        gap: 30px;
+    }
+    .footer-bottom div{
+        display: flex;
+    }
+  }

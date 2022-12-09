@@ -21,3 +21,19 @@ header ul li a {
 header .navbar-space {
     margin-left: 100px;
 }
+
+@media (max-width: 900px) {
+    .navbar-space {
+      display: none;
+      
+    }
+    header ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 30px;
+    }
+    .navbar-design-blog {
+        display: none;
+    }
+  }

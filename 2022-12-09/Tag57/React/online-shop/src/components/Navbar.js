@@ -1,3 +1,4 @@
+import React from 'react';
 import "./Navbar.css"
 const Navbar = () => {
     return ( 
@@ -20,7 +21,7 @@ const Navbar = () => {
             <li className="navbar-space" >
                 <a href="#">Weekly Picks</a>
             </li>
-            <li>
+            <li className='navbar-design-blog'>
                 <a href="#">The Design Blog</a>
             </li>
         </ul>

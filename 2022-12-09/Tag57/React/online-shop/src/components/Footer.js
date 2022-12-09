@@ -1,3 +1,4 @@
+import React from 'react';
 import "./Footer.css"
 const Footer = () => {
     return ( 
@@ -36,7 +37,7 @@ const Footer = () => {
             <div>
                 <a href="#">Disclaimer</a>
                 <a href="#">Shop</a>
-                <a href="#">Weely picks</a>
+                <a href="#">Weekly picks</a>
             </div>
             <p>Made by Mikex95</p>
         </section>
