@@ -1,0 +1,39 @@
+main {
+    margin: 0 50px;
+}
+
+main .grid-four-pics{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+main .grid-four-pics img {
+    width: 100%;
+}
+
+main .grid-four-pics figcaption {
+    margin-top: 10px;
+}
+
+main .grid-four-pics figure p {
+    color: rgba(128, 128, 128, 0.708);
+}
+
+.grid-two-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+
+.grid-two-pics figure {
+    width: 100%;
+}
+
+.grid-two-pics img {
+    width: 100%;
+}

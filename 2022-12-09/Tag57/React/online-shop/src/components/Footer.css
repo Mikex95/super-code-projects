@@ -1,0 +1,28 @@
+footer {
+    margin: 0 50px;
+}
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.grid-footer h4{
+    margin-bottom: 10px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    color: lightgray;
+}
+
+.footer-bottom a {
+    margin: 10px;
+    text-decoration: none;
+    color: lightblue;
+}
