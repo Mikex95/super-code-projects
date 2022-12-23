@@ -5,6 +5,7 @@
     flex-direction: column;
     padding: 10px 20px;
     color: white;
+    height: 100vh;
 }
 
 .wrapper-input-button{
@@ -12,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 250px;
 }
 
 input {
