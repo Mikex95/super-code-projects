@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+.home h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.home p {
+    font-size: 18px;
+    margin: 0;
+    padding: 20px 0;
+    max-width: 40vw;
+}
+
+.home img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+
+/* About Page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: yellow 1px solid;
+}
+
+.about h1 {
+    max-width: 79vw;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-size: 18px;
+    margin: 0;
+    padding: 20px 0;
+    width: 60vw;
+}
+
+.about p:first-of-type {
+    font-style: italic;
+}
+
+.about p:last-of-type {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* works */
+
+.works {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .works h1 {
+    font-size: 2em;
+    margin: 1em 0;
+  }
+  
+  .works p {
+    width: 60vw;
+    margin: 1em 0;
+  }
+  
+  .works em {
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  /* gallery */
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+    margin: 20px;
+  }
+
+  .gallery div {
+    width: 300px;
+    height: 300px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
