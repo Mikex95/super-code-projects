@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <h1>MovieMagic</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search for a movie...">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <nav>
+            <% genresData.forEach(genre => { %>
+                <li><a class="genre-link" href="/genre/<%= genre.id %>"><%= genre.name %></a></li>
+              <% }); %>
+        </nav>
+        <section class="grid">
+             <% users.forEach(data => { %>
+                <div class="movie %>">
+                   <a href="/movie/<%= data.id %>">
+                     <img src=<%= "https://image.tmdb.org/t/p/original/" + data.poster_path %> alt="">
+                    </a>
+                <h5>
+                    <a class="grid-title" href="/movie/<%= data.id %>"> <%= data.title %> </a>
+                </h5>
+            </div>
+        <% }) %>
+        </section>
+        <ul class="buttons-container">
+                <% pagination.forEach(page => { %>
+                <li>
+                    <% if(page === currentPage) {%> <%= page %> 
+                        <% } else {%>
+                    <a href="/movies/<%= page %>"><%= page %></a>
+                    <% } %>
+                    <% }) %>
+                </li>
+         </ul>
+
+    </main>
+    <script>
+        // Get the list of movies and the search input field
+    const movies = document.querySelectorAll(".movie");
+    const searchInput = document.querySelector("#search-input");
+
+// Listen for the form submission event
+    const submission = document.querySelector("#search-form")
+    
+    submission.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+  // Get the search query
+    const query = searchInput.value.toLowerCase();
+
+  // Filter the movies based on the search query
+    movies.forEach((movie) => {
+        if (movie.textContent.toLowerCase().includes(query)) {
+        movie.style.display = "block";
+        } else {
+        movie.style.display = "none";
+        }
+    });
+    });
+
+
+        const genreLinks = document.querySelectorAll(".genre-link");
+        genreLinks.forEach((link) => {
+          link.addEventListener("click", (event) => {
+
+            genreLinks.forEach((link) => link.classList.remove("active"));
+            link.classList.add("active");
+          });
+        });
+      </script>    
+</body>
+</html>

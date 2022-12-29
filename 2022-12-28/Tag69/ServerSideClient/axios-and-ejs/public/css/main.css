@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #333333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100px;
+}
+
+header h1 {
+    color: azure;
+}
+
+/* ------ main ---- */
+.genre-link.active {
+    background-color: rgb(5, 90, 122);
+  }
+
+main nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    gap: 10px;
+}
+
+main nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main nav li a {
+    padding: 10px 20px;
+    background-color: green;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: azure;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: azure;
+    margin: 100px 25px;
+    gap: 20px;
+}
+
+.grid-title {
+    text-decoration: none;
+    color: azure;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.grid div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid h5 {
+    margin-top: 5px;
+}
+
+.movie {
+    width: fit-content;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.buttons button{
+    width: 200px;
+    height: 50px;
+}
+
+.detailspage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: azure;
+}
+
+.detailspage a {
+    color: rgb(106, 255, 0);
+    font-size: 24px;
+    margin: 10px 0 ;
+    text-decoration: none;
+    border: 1px solid yellow;
+    padding: 5px;
+}
+.detailspage img{
+    height: 50%;
+    width: 50vw;
+    border-radius: 20px;
+}
+
+.status {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: azure;
+}
+
+.status .description {
+    width: 50vw;
+    text-align: center;
+}
+
+.genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 255, 248);
+    gap: 20px;
+}
+
+.genre p {
+    width: 150px;
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: green;
+    text-align: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 25px 0;
+    list-style-type: none;
+}
+
+
+.buttons-container a {
+    color: azure;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(47, 26, 1);
+    width: 100px;
+}

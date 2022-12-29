@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= details.title %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="detailspage">
+            <a href="/">Back to Home</a>
+            <img src=<%= "https://image.tmdb.org/t/p/original/" + details.backdrop_path %> alt="">
+            <h1><%= details.title %></h1>
+        </div>
+        <div class="genre">
+        <% detailsGenre.forEach(items => { %> 
+                <p> <%= items.name %></p>
+        <% }) %>
+        </div>
+            <div class="status">
+                <p><%= details.release_date %></p>
+                <p><%= details.status %></p>
+                <h3>Plot Summary</h3>
+                <p class="description"><%= details.overview %></p>
+            </div>
+    </main> 
+  
+</body>
+</html>
