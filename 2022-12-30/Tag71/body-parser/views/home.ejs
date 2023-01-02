@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperCool 😎</title>
+</head>
+<body>
+    <h1>Willkommen auf SuperCool!</h1>
+
+    <!-- 
+
+    (https methoden)  -> wird verwendet...
+
+    GET -> um in der request ressourcen anzuforden
+    POST -> um ressourcen zu erstellen
+    PUT/PATCH -> um ressourcen zu bearbeiten
+    DELTE -> um ressourcen zu löschen
+
+    -->
+    <form action="/add-super-cool-message" method="post">
+        <input name="messageText" type="text" placeholder="deine super-coole message" >
+        <input name="name" type="text" placeholder="dein super-cooler name" >
+        <input type="submit" value="Join Super Cool" >
+    </form>
+    <h1>Beiträge</h1>
+    <ul>
+        <% messages.forEach(message => { %>
+            <li class="message">
+                <p><%= message.name %></p>
+                <p><%= message.messageText %></p>
+                <p><%= message.postedAt %></p>
+            </li>
+            <% }) %> 
+    </ul>
+</body>
+</html>
