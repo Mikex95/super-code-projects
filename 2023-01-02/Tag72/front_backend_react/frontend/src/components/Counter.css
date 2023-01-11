@@ -1,0 +1,14 @@
+.todo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todo-list li {
+    padding: 10px 20px;
+    background-color: gray;
+    width: 250px;
+    list-style-type: none;
+}
